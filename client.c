@@ -2,7 +2,10 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
-#include <netdb.h> 
+#include <netdb.h>
+#include <srdlib.h>
+#include <unistd.h>
+#include <string.h> 
 
 void error(char *msg)
 {
